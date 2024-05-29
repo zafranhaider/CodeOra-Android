@@ -4,7 +4,7 @@
             "outputFile": "com.example.codeora.app-mergeDebugResources-41:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",

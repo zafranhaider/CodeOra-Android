@@ -37,10 +37,10 @@ com.example.codeora.app-core-runtime-2.2.0-35 C:\Users\Zafran\.gradle\caches\tra
 com.example.codeora.app-lifecycle-livedata-2.6.1-36 C:\Users\Zafran\.gradle\caches\transforms-3\f11c41b0f14a8ae3283e0b75571ec9a9\transformed\lifecycle-livedata-2.6.1\res
 com.example.codeora.app-lifecycle-livedata-core-ktx-2.6.1-37 C:\Users\Zafran\.gradle\caches\transforms-3\f29821a923f37666dc78d27e9ff15bc0\transformed\lifecycle-livedata-core-ktx-2.6.1\res
 com.example.codeora.app-navigation-runtime-2.6.0-38 C:\Users\Zafran\.gradle\caches\transforms-3\ff6731c4c327025a936af588a4294e35\transformed\navigation-runtime-2.6.0\res
-com.example.codeora.app-pngs-39 E:\CodeOra-Android\app\build\generated\res\pngs\debug
-com.example.codeora.app-resValues-40 E:\CodeOra-Android\app\build\generated\res\resValues\debug
-com.example.codeora.app-packageDebugResources-41 E:\CodeOra-Android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.codeora.app-packageDebugResources-42 E:\CodeOra-Android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.codeora.app-debug-43 E:\CodeOra-Android\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.codeora.app-debug-44 E:\CodeOra-Android\app\src\debug\res
-com.example.codeora.app-main-45 E:\CodeOra-Android\app\src\main\res
+com.example.codeora.app-pngs-39 E:\CodeOra\CodeOra-Android\app\build\generated\res\pngs\debug
+com.example.codeora.app-resValues-40 E:\CodeOra\CodeOra-Android\app\build\generated\res\resValues\debug
+com.example.codeora.app-packageDebugResources-41 E:\CodeOra\CodeOra-Android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.codeora.app-packageDebugResources-42 E:\CodeOra\CodeOra-Android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.codeora.app-debug-43 E:\CodeOra\CodeOra-Android\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.codeora.app-debug-44 E:\CodeOra\CodeOra-Android\app\src\debug\res
+com.example.codeora.app-main-45 E:\CodeOra\CodeOra-Android\app\src\main\res

@@ -57,44 +57,6 @@
                     }
                 },
                 {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "100,322",
-                        "endLines": "5,7",
-                        "endColumns": "12,62",
-                        "endOffsets": "316,380"
-                    },
-                    "to": {
-                        "startLines": "2517,6409",
-                        "startColumns": "4,4",
-                        "startOffsets": "176871,448930",
-                        "endLines": "2520,6409",
-                        "endColumns": "12,61",
-                        "endOffsets": "176981,448987"
-                    }
-                },
-                {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3,8,5,6,4",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "16,116,331,246,284,180",
-                        "endLines": "1,3,43,5,6,4",
-                        "endColumns": "44,63,13,37,45,65",
-                        "endOffsets": "56,175,3471,279,325,241"
-                    },
-                    "to": {
-                        "startLines": "1982,2002,2006,2150,2156,2163",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "131021,133367,133797,152618,153458,154065",
-                        "endLines": "1982,2002,2041,2150,2156,2163",
-                        "endColumns": "44,63,13,37,45,65",
-                        "endOffsets": "131061,133426,136937,152651,153499,154126"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Zafran\\.gradle\\caches\\transforms-3\\ceb26eb725a73f4fc39e47eba175c402\\transformed\\transition-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -109,23 +71,6 @@
                         "startOffsets": "120356,120396,121638,121862,121917,123521,123575,123627,123676,123737",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "120391,120438,121676,121912,121959,123570,123622,123671,123732,123782"
-                    }
-                },
-                {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,41",
-                        "endOffsets": "92,134"
-                    },
-                    "to": {
-                        "startLines": "648,965",
-                        "startColumns": "4,4",
-                        "startOffsets": "33134,56679",
-                        "endColumns": "41,41",
-                        "endOffsets": "33171,56716"
                     }
                 },
                 {
@@ -198,6 +143,42 @@
                         "endLines": "13663",
                         "endColumns": "24",
                         "endOffsets": "804862"
+                    }
+                },
+                {
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,322",
+                        "endLines": "5,7",
+                        "endColumns": "12,62",
+                        "endOffsets": "316,380"
+                    },
+                    "to": {
+                        "startLines": "2517,6409",
+                        "startColumns": "4,4",
+                        "startOffsets": "176871,448930",
+                        "endLines": "2520,6409",
+                        "endColumns": "12,61",
+                        "endOffsets": "176981,448987"
+                    }
+                },
+                {
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,41",
+                        "endOffsets": "92,134"
+                    },
+                    "to": {
+                        "startLines": "648,965",
+                        "startColumns": "4,4",
+                        "startOffsets": "33134,56679",
+                        "endColumns": "41,41",
+                        "endOffsets": "33171,56716"
                     }
                 },
                 {
@@ -275,6 +256,23 @@
                     }
                 },
                 {
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "6",
+                        "startOffsets": "18",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "1110",
+                        "startColumns": "4",
+                        "startOffsets": "66273",
+                        "endColumns": "41",
+                        "endOffsets": "66310"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Zafran\\.gradle\\caches\\transforms-3\\2f48a585da21021a99b94c1d22644801\\transformed\\navigation-fragment-2.6.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12",
@@ -310,6 +308,25 @@
                         "endLines": "1823,9321,12439,12445",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "121188,643740,760183,760425"
+                    }
+                },
+                {
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3,8,5,6,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "16,116,331,246,284,180",
+                        "endLines": "1,3,43,5,6,4",
+                        "endColumns": "44,63,13,37,45,65",
+                        "endOffsets": "56,175,3471,279,325,241"
+                    },
+                    "to": {
+                        "startLines": "1982,2002,2006,2150,2156,2163",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "131021,133367,133797,152618,153458,154065",
+                        "endLines": "1982,2002,2041,2150,2156,2163",
+                        "endColumns": "44,63,13,37,45,65",
+                        "endOffsets": "131061,133426,136937,152651,153499,154126"
                     }
                 },
                 {
@@ -441,23 +458,6 @@
                         "startOffsets": "121777,123955",
                         "endColumns": "41,59",
                         "endOffsets": "121814,124010"
-                    }
-                },
-                {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "6",
-                        "startOffsets": "18",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "1110",
-                        "startColumns": "4",
-                        "startOffsets": "66273",
-                        "endColumns": "41",
-                        "endOffsets": "66310"
                     }
                 },
                 {

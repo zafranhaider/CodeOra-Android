@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "E:\\CodeOra-Android\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "E:\\CodeOra\\CodeOra-Android\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

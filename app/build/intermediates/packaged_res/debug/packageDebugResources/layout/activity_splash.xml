@@ -77,7 +77,7 @@
         android:layout_height="42dp"
         android:ems="10"
         android:inputType="text"
-        android:text="The Official Android App Of CodeOra"
+        android:text="The Official CodeOra App Version 1.4 "
         android:textColor="#FFFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
