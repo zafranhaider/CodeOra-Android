@@ -1,0 +1,34 @@
+com.example.codeora.app-appcompat-resources-1.6.1-0 C:\Users\UK Computer\.gradle\caches\transforms-3\08790628c8f0bd97dc7c1f704bb96ff9\transformed\appcompat-resources-1.6.1\res
+com.example.codeora.app-fragment-1.3.6-1 C:\Users\UK Computer\.gradle\caches\transforms-3\12d091bc4346576960632dc10858e02d\transformed\fragment-1.3.6\res
+com.example.codeora.app-lifecycle-viewmodel-2.6.1-2 C:\Users\UK Computer\.gradle\caches\transforms-3\1438e8a16ed090dc66df53d1701d19f4\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.codeora.app-material-1.11.0-3 C:\Users\UK Computer\.gradle\caches\transforms-3\1f3bfc63a883d8785cc7aedbe71e7dca\transformed\material-1.11.0\res
+com.example.codeora.app-lifecycle-livedata-core-2.6.1-4 C:\Users\UK Computer\.gradle\caches\transforms-3\2fbe136508b23c9f8ff64658a4b03cb4\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.codeora.app-lifecycle-process-2.6.1-5 C:\Users\UK Computer\.gradle\caches\transforms-3\42f45316e137c3e13cf105dc2beec2f2\transformed\lifecycle-process-2.6.1\res
+com.example.codeora.app-drawerlayout-1.1.1-6 C:\Users\UK Computer\.gradle\caches\transforms-3\45900b22924e3e68e343f3172523ce7b\transformed\drawerlayout-1.1.1\res
+com.example.codeora.app-recyclerview-1.1.0-7 C:\Users\UK Computer\.gradle\caches\transforms-3\599e1a4dce1ede54ec39637812214206\transformed\recyclerview-1.1.0\res
+com.example.codeora.app-lifecycle-livedata-2.6.1-8 C:\Users\UK Computer\.gradle\caches\transforms-3\63b6d8708c6f5e272360404a9c5cdfd6\transformed\lifecycle-livedata-2.6.1\res
+com.example.codeora.app-viewpager2-1.0.0-9 C:\Users\UK Computer\.gradle\caches\transforms-3\6d47acdd5b31f1970167086aed69a241\transformed\viewpager2-1.0.0\res
+com.example.codeora.app-lifecycle-viewmodel-savedstate-2.6.1-10 C:\Users\UK Computer\.gradle\caches\transforms-3\6f89108056d99d09224681e2bf4d832a\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.codeora.app-coordinatorlayout-1.1.0-11 C:\Users\UK Computer\.gradle\caches\transforms-3\7e600c31c86b47e78f32a0ff9fd810a1\transformed\coordinatorlayout-1.1.0\res
+com.example.codeora.app-core-1.9.0-12 C:\Users\UK Computer\.gradle\caches\transforms-3\950162040326f49658c77129bbfc2569\transformed\core-1.9.0\res
+com.example.codeora.app-appcompat-1.6.1-13 C:\Users\UK Computer\.gradle\caches\transforms-3\9edfcf2efab6dea36220897785193054\transformed\appcompat-1.6.1\res
+com.example.codeora.app-emoji2-1.2.0-14 C:\Users\UK Computer\.gradle\caches\transforms-3\b9fca4beb9b805987449086cbd45da99\transformed\emoji2-1.2.0\res
+com.example.codeora.app-savedstate-1.2.1-15 C:\Users\UK Computer\.gradle\caches\transforms-3\bf2ef69cd35b1f586f243ce194f999eb\transformed\savedstate-1.2.1\res
+com.example.codeora.app-cardview-1.0.0-16 C:\Users\UK Computer\.gradle\caches\transforms-3\caa9a6c5a6e2a9380552a2888ea91487\transformed\cardview-1.0.0\res
+com.example.codeora.app-constraintlayout-2.1.4-17 C:\Users\UK Computer\.gradle\caches\transforms-3\cfcb83684a7951905dc848dafaa37200\transformed\constraintlayout-2.1.4\res
+com.example.codeora.app-annotation-experimental-1.3.0-18 C:\Users\UK Computer\.gradle\caches\transforms-3\d47f03a9546141c8b928d26bd676bc4c\transformed\annotation-experimental-1.3.0\res
+com.example.codeora.app-transition-1.2.0-19 C:\Users\UK Computer\.gradle\caches\transforms-3\e5638ee667cdce35c8d6cd3862f0cbda\transformed\transition-1.2.0\res
+com.example.codeora.app-profileinstaller-1.3.0-20 C:\Users\UK Computer\.gradle\caches\transforms-3\ec30f08ef7d5ed8a8ad312f7d515ff3e\transformed\profileinstaller-1.3.0\res
+com.example.codeora.app-startup-runtime-1.1.1-21 C:\Users\UK Computer\.gradle\caches\transforms-3\ed3a5339933a6d585f1170b1b4e519b4\transformed\startup-runtime-1.1.1\res
+com.example.codeora.app-core-ktx-1.9.0-22 C:\Users\UK Computer\.gradle\caches\transforms-3\f0c00606ef5970646c7d1b1e98713eca\transformed\core-ktx-1.9.0\res
+com.example.codeora.app-emoji2-views-helper-1.2.0-23 C:\Users\UK Computer\.gradle\caches\transforms-3\f18e6d2c0f97e806a0491cb481a4526a\transformed\emoji2-views-helper-1.2.0\res
+com.example.codeora.app-core-runtime-2.2.0-24 C:\Users\UK Computer\.gradle\caches\transforms-3\f85745476cc3bcb6b8185cff02acbf5c\transformed\core-runtime-2.2.0\res
+com.example.codeora.app-activity-1.8.0-25 C:\Users\UK Computer\.gradle\caches\transforms-3\fb0596f4e86e0175f8f6a409513cfae5\transformed\activity-1.8.0\res
+com.example.codeora.app-lifecycle-runtime-2.6.1-26 C:\Users\UK Computer\.gradle\caches\transforms-3\fdeaf576b36bd55106b05feeb9f50ca7\transformed\lifecycle-runtime-2.6.1\res
+com.example.codeora.app-pngs-27 E:\CodeOra-Android\app\build\generated\res\pngs\release
+com.example.codeora.app-resValues-28 E:\CodeOra-Android\app\build\generated\res\resValues\release
+com.example.codeora.app-packageReleaseResources-29 E:\CodeOra-Android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.codeora.app-packageReleaseResources-30 E:\CodeOra-Android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.codeora.app-release-31 E:\CodeOra-Android\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.codeora.app-main-32 E:\CodeOra-Android\app\src\main\res
+com.example.codeora.app-release-33 E:\CodeOra-Android\app\src\release\res

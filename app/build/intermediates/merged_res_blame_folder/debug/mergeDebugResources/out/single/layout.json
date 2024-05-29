@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.codeora.app-mergeDebugResources-42:/layout/activity_splash.xml",
+        "source": "com.example.codeora.app-main-45:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_main.xml"
+    }
+]
