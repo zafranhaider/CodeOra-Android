@@ -2,13 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.codeora"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.4" >
 
     <uses-sdk
         android:minSdkVersion="22"
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
         android:name="com.example.codeora.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -29,8 +30,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeOra" >
-
-        <!-- Define splash activity as the launcher activity -->
+        <activity
+            android:name="com.example.codeora.NetworkUtil"
+            android:exported="false" />
+        <activity
+            android:name="com.example.codeora.internet"
+            android:exported="false" /> <!-- Define splash activity as the launcher activity -->
         <activity
             android:name="com.example.codeora.splash"
             android:exported="true"
@@ -40,13 +45,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Define MainActivity -->
+        </activity> <!-- Define MainActivity -->
         <activity
             android:name="com.example.codeora.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -1,17 +1,21 @@
 package com.example.codeora;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.View;
 import android.webkit.JavascriptInterface;
+import android.webkit.WebResourceError;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,40 +32,12 @@ public class MainActivity extends AppCompatActivity {
         webView = findViewById(R.id.webview);
         progressBar = findViewById(R.id.progressBar);
 
+        if (!NetworkUtil.isNetworkAvailable(this)) {
+            showErrorPage();
+            return;
+        }
 
-
-        webView.setWebViewClient(new WebViewClient() {
-            @Override
-            public void onPageStarted(WebView view, String url, android.graphics.Bitmap favicon) {
-                super.onPageStarted(view, url, favicon);
-                progressBar.setVisibility(ProgressBar.VISIBLE);
-                Log.d(TAG, "Page started loading: " + url);
-
-                // Set a timeout to hide the progress bar in case onPageFinished is not called
-                new Handler().postDelayed(() -> {
-                    if (progressBar.getVisibility() == ProgressBar.VISIBLE) {
-                        progressBar.setVisibility(ProgressBar.GONE);
-                        Log.d(TAG, "Progress bar hidden due to timeout");
-                    }
-                }, 4000); // 4 seconds timeout
-            }
-
-            @Override
-            public void onPageFinished(WebView view, String url) {
-                super.onPageFinished(view, url);
-                progressBar.setVisibility(ProgressBar.GONE);
-                Log.d(TAG, "Page finished loading: " + url);
-
-                // Inject JavaScript for lazy loading
-                injectLazyLoadingScript();
-            }
-
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                view.loadUrl(url);
-                return true;
-            }
-        });
+        webView.setWebViewClient(new CustomWebViewClient());
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -123,10 +99,67 @@ public class MainActivity extends AppCompatActivity {
                         "})()", null);
     }
 
+    private void showErrorPage() {
+        Intent intent = new Intent(MainActivity.this, internet.class);
+        startActivity(intent);
+        finish();
+    }
+
     public class WebAppInterface {
         @JavascriptInterface
         public void showToast(String toast) {
             Toast.makeText(MainActivity.this, toast, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private class CustomWebViewClient extends WebViewClient {
+        @Override
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            super.onPageStarted(view, url, favicon);
+            progressBar.setVisibility(ProgressBar.VISIBLE);
+            Log.d(TAG, "Page started loading: " + url);
+
+            // Set a timeout to hide the progress bar in case onPageFinished is not called
+            new Handler().postDelayed(() -> {
+                if (progressBar.getVisibility() == ProgressBar.VISIBLE) {
+                    progressBar.setVisibility(ProgressBar.GONE);
+                    Log.d(TAG, "Progress bar hidden due to timeout");
+                }
+            }, 4000); // 4 seconds timeout
+        }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            super.onPageFinished(view, url);
+            progressBar.setVisibility(ProgressBar.GONE);
+            Log.d(TAG, "Page finished loading: " + url);
+
+            // Inject JavaScript for lazy loading
+            injectLazyLoadingScript();
+        }
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
+
+        @Override
+        public void onReceivedError(@NonNull WebView view, @NonNull WebResourceRequest request, @NonNull WebResourceError error) {
+            super.onReceivedError(view, request, error);
+            Log.e(TAG, "WebView error: " + error.getDescription());
+            if (request.isForMainFrame()) {
+                showErrorPage();
+            }
+        }
+
+        @Override
+        public void onReceivedHttpError(@NonNull WebView view, @NonNull WebResourceRequest request, @NonNull WebResourceResponse errorResponse) {
+            super.onReceivedHttpError(view, request, errorResponse);
+            Log.e(TAG, "HTTP error: " + errorResponse.getReasonPhrase());
+            if (request.isForMainFrame()) {
+                showErrorPage();
+            }
         }
     }
 }

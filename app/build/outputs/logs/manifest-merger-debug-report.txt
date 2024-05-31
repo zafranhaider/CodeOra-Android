@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\Zafran\.gradle\caches\transforms-3\68685c584e2bc7305c73320ba75c79f3\transformed\viewbinding-8.3.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\Zafran\.gradle\caches\transforms-3\352620d5fa41c2e37cb8e0cdaf89bf1a\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\Zafran\.gradle\caches\transforms-3\ff6731c4c327025a936af588a4294e35\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -72,9 +72,13 @@ uses-permission#android.permission.INTERNET
 ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-35:19
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-35:19
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-37:19
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-37:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Zafran\.gradle\caches\transforms-3\64b0c54c81efba8b6c27ef2525d594d0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Zafran\.gradle\caches\transforms-3\64b0c54c81efba8b6c27ef2525d594d0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Zafran\.gradle\caches\transforms-3\722a6a8ed1e5a1a8fd825ae758fcf0cf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -117,30 +121,42 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Za
 		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:16:9-45
 	android:dataExtractionRules
 		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.codeora.NetworkUtil
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:19:13-40
+activity#com.example.codeora.internet
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:22:13-37
 activity#com.example.codeora.splash
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:24:9-33:20
 	android:exported
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:26:13-36
 	android:theme
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:27:13-49
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:21:13-35
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:25:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.example.codeora.MainActivity
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:9-34:20
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:34:9-36:39
 	android:exported
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:35:13-41
 uses-sdk
 INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml

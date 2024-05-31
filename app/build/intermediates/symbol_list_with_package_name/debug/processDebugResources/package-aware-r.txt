@@ -3298,6 +3298,7 @@ id easeOut
 id east
 id edge
 id editTextText
+id editTextText2
 id edit_query
 id elastic
 id embed
@@ -3488,6 +3489,7 @@ id postLayout
 id pressed
 id progressBar
 id progressBar2
+id progressBar3
 id progress_circular
 id progress_horizontal
 id radio
@@ -3587,6 +3589,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3751,7 +3754,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_internet
 layout activity_main
+layout activity_network_util
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
