@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.codeora.app-mergeDebugResources-41:/values-fr/values-fr.xml",
+            "outputFile": "com.example.codeora.app-mergeDebugResources-42:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Zafran\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-fr\\values-fr.xml",

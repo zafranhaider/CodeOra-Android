@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.helper.widget.Layer;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -29,27 +29,44 @@ public final class ActivitySplashBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
   public final ImageView imageView5;
+
+  @NonNull
+  public final Layer layer;
+
+  @NonNull
+  public final Layer layer2;
+
+  @NonNull
+  public final Layer layer3;
 
   @NonNull
   public final ConstraintLayout main;
 
   @NonNull
-  public final ProgressBar progressBar2;
-
-  @NonNull
   public final TextView textView;
 
+  @NonNull
+  public final TextView textView3;
+
   private ActivitySplashBinding(@NonNull ConstraintLayout rootView, @NonNull EditText editTextText,
-      @NonNull ImageView imageView, @NonNull ImageView imageView5, @NonNull ConstraintLayout main,
-      @NonNull ProgressBar progressBar2, @NonNull TextView textView) {
+      @NonNull ImageView imageView, @NonNull ImageView imageView2, @NonNull ImageView imageView5,
+      @NonNull Layer layer, @NonNull Layer layer2, @NonNull Layer layer3,
+      @NonNull ConstraintLayout main, @NonNull TextView textView, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.editTextText = editTextText;
     this.imageView = imageView;
+    this.imageView2 = imageView2;
     this.imageView5 = imageView5;
+    this.layer = layer;
+    this.layer2 = layer2;
+    this.layer3 = layer3;
     this.main = main;
-    this.progressBar2 = progressBar2;
     this.textView = textView;
+    this.textView3 = textView3;
   }
 
   @Override
@@ -91,19 +108,37 @@ public final class ActivitySplashBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView5;
       ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
       if (imageView5 == null) {
         break missingId;
       }
 
-      ConstraintLayout main = (ConstraintLayout) rootView;
-
-      id = R.id.progressBar2;
-      ProgressBar progressBar2 = ViewBindings.findChildViewById(rootView, id);
-      if (progressBar2 == null) {
+      id = R.id.layer;
+      Layer layer = ViewBindings.findChildViewById(rootView, id);
+      if (layer == null) {
         break missingId;
       }
+
+      id = R.id.layer2;
+      Layer layer2 = ViewBindings.findChildViewById(rootView, id);
+      if (layer2 == null) {
+        break missingId;
+      }
+
+      id = R.id.layer3;
+      Layer layer3 = ViewBindings.findChildViewById(rootView, id);
+      if (layer3 == null) {
+        break missingId;
+      }
+
+      ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
@@ -111,8 +146,14 @@ public final class ActivitySplashBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
       return new ActivitySplashBinding((ConstraintLayout) rootView, editTextText, imageView,
-          imageView5, main, progressBar2, textView);
+          imageView2, imageView5, layer, layer2, layer3, main, textView, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

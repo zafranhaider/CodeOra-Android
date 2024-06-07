@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.codeora.app-mergeDebugResources-41:/values-kk/values-kk.xml",
+            "outputFile": "com.example.codeora.app-mergeDebugResources-42:/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Zafran\\.gradle\\caches\\transforms-3\\196583cb727dda22d9e73482887ccfc1\\transformed\\core-1.9.0\\res\\values-kk\\values-kk.xml",

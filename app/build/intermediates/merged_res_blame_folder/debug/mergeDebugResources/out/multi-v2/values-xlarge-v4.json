@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.codeora.app-mergeDebugResources-41:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.codeora.app-mergeDebugResources-42:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Zafran\\.gradle\\caches\\transforms-3\\9a0813c8653e938598890f426a9701c2\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",

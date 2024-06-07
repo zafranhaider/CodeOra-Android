@@ -1,11 +1,17 @@
 package com.example.codeora;
 
+import android.Manifest;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
+import android.webkit.ValueCallback;
+import android.webkit.WebChromeClient;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
@@ -16,13 +22,20 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+    private static final int FILE_CHOOSER_REQUEST_CODE = 1;
     private WebView webView;
     private ProgressBar progressBar;
+    private SwipeRefreshLayout swipeRefreshLayout;
+    private ValueCallback<Uri[]> filePathCallback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,23 +44,29 @@ public class MainActivity extends AppCompatActivity {
 
         webView = findViewById(R.id.webview);
         progressBar = findViewById(R.id.progressBar);
+        swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout);
 
         if (!NetworkUtil.isNetworkAvailable(this)) {
             showErrorPage();
             return;
         }
 
+        swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
+
         webView.setWebViewClient(new CustomWebViewClient());
+        webView.setWebChromeClient(new CustomWebChromeClient());
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
         webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
-        // Add JavaScript interface
         webView.addJavascriptInterface(new WebAppInterface(), "Android");
-
         webView.loadUrl("https://zafran.pythonanywhere.com/index/");
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, FILE_CHOOSER_REQUEST_CODE);
+        }
     }
 
     @Override
@@ -93,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                         "               newSection.innerHTML = 'New Section Content';" +
                         "               content.appendChild(newSection);" +
                         "               loader.style.display = 'none';" +
-                        "           }, 1000); // Simulate network delay" +
+                        "           }, 1000);" +
                         "       }" +
                         "   });" +
                         "})()", null);
@@ -119,22 +138,20 @@ public class MainActivity extends AppCompatActivity {
             progressBar.setVisibility(ProgressBar.VISIBLE);
             Log.d(TAG, "Page started loading: " + url);
 
-            // Set a timeout to hide the progress bar in case onPageFinished is not called
             new Handler().postDelayed(() -> {
                 if (progressBar.getVisibility() == ProgressBar.VISIBLE) {
                     progressBar.setVisibility(ProgressBar.GONE);
                     Log.d(TAG, "Progress bar hidden due to timeout");
                 }
-            }, 4000); // 4 seconds timeout
+            }, 4000);
         }
 
         @Override
         public void onPageFinished(WebView view, String url) {
             super.onPageFinished(view, url);
             progressBar.setVisibility(ProgressBar.GONE);
+            swipeRefreshLayout.setRefreshing(false);
             Log.d(TAG, "Page finished loading: " + url);
-
-            // Inject JavaScript for lazy loading
             injectLazyLoadingScript();
         }
 
@@ -160,6 +177,41 @@ public class MainActivity extends AppCompatActivity {
             if (request.isForMainFrame()) {
                 showErrorPage();
             }
+        }
+    }
+
+    private class CustomWebChromeClient extends WebChromeClient {
+        @Override
+        public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> filePathCallback, FileChooserParams fileChooserParams) {
+            if (MainActivity.this.filePathCallback != null) {
+                MainActivity.this.filePathCallback.onReceiveValue(null);
+            }
+            MainActivity.this.filePathCallback = filePathCallback;
+
+            Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.addCategory(Intent.CATEGORY_OPENABLE);
+            intent.setType("*/*");
+            startActivityForResult(Intent.createChooser(intent, "File Chooser"), FILE_CHOOSER_REQUEST_CODE);
+            return true;
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == FILE_CHOOSER_REQUEST_CODE) {
+            if (filePathCallback == null) return;
+            Uri[] results = null;
+            if (resultCode == RESULT_OK) {
+                if (data != null) {
+                    String dataString = data.getDataString();
+                    if (dataString != null) {
+                        results = new Uri[]{Uri.parse(dataString)};
+                    }
+                }
+            }
+            filePathCallback.onReceiveValue(results);
+            filePathCallback = null;
         }
     }
 }

@@ -9,6 +9,7 @@ import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.codeora.R;
@@ -27,13 +28,18 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
+  public final SwipeRefreshLayout swipeRefreshLayout;
+
+  @NonNull
   public final WebView webview;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
-      @NonNull ProgressBar progressBar, @NonNull WebView webview) {
+      @NonNull ProgressBar progressBar, @NonNull SwipeRefreshLayout swipeRefreshLayout,
+      @NonNull WebView webview) {
     this.rootView = rootView;
     this.main = main;
     this.progressBar = progressBar;
+    this.swipeRefreshLayout = swipeRefreshLayout;
     this.webview = webview;
   }
 
@@ -72,13 +78,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swipeRefreshLayout;
+      SwipeRefreshLayout swipeRefreshLayout = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefreshLayout == null) {
+        break missingId;
+      }
+
       id = R.id.webview;
       WebView webview = ViewBindings.findChildViewById(rootView, id);
       if (webview == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, main, progressBar, webview);
+      return new ActivityMainBinding((ConstraintLayout) rootView, main, progressBar,
+          swipeRefreshLayout, webview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

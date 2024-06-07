@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\Zafran\.gradle\caches\transforms-3\68685c584e2bc7305c73320ba75c79f3\transformed\viewbinding-8.3.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\Zafran\.gradle\caches\transforms-3\352620d5fa41c2e37cb8e0cdaf89bf1a\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Users\Zafran\.gradle\caches\transforms-3\ff6731c4c327025a936af588a4294e35\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -18,6 +18,7 @@ MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Users\Zafran\.gradle\cache
 MERGED from [androidx.fragment:fragment:1.6.0] C:\Users\Zafran\.gradle\caches\transforms-3\0e417c9919ec54af20e5fef814531222\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Zafran\.gradle\caches\transforms-3\2fe1eb29203ef25a7b84cf676e4df6ce\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\Zafran\.gradle\caches\transforms-3\b3afb54941440fa9891dc9470bf88330\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Zafran\.gradle\caches\transforms-3\dbf5a40fb97120c24129140d821bfcb0\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\ad01eac45ee5dce266fab5fd7c4605f9\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\a8e6f4de7cd93f9782cf1345596b1bda\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\162bc71654c64870a0def917e2a9af62\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -51,9 +52,9 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Zafran\.gradle\caches\tr
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zafran\.gradle\caches\transforms-3\ba062fae65988cc92504a268127390d5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\024e23f370f3654acb05812c2e6be77e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\0fb48e485143878e7568a89ecd36217b\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\2152ce4dd339642fa6927fa36ea22c56\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\e4919c112a7bd135653e0ef2311ed00f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\217b3c3ef7c89f401474fd9a4fc5c270\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\ac4c73d4d90e936e851c7314fb1d2776\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\588c58bbc7fd5193f28cb2ae47c1b624\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -76,9 +77,17 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-37:19
-INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:7:5-37:19
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:10:5-40:19
+INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:10:5-40:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Zafran\.gradle\caches\transforms-3\64b0c54c81efba8b6c27ef2525d594d0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Zafran\.gradle\caches\transforms-3\64b0c54c81efba8b6c27ef2525d594d0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Zafran\.gradle\caches\transforms-3\722a6a8ed1e5a1a8fd825ae758fcf0cf\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -102,61 +111,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Za
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Zafran\.gradle\caches\transforms-3\196583cb727dda22d9e73482887ccfc1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:16:9-41
 	android:hardwareAccelerated
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:14:9-43
 	android:fullBackupContent
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:17:9-54
 	tools:targetApi
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:16:9-45
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:19:9-45
 	android:dataExtractionRules
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:12:9-65
 activity#com.example.codeora.NetworkUtil
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:18:9-20:40
-	android:exported
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:19:13-40
-activity#com.example.codeora.internet
 ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:22:13-40
+activity#com.example.codeora.internet
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:25:13-37
 activity#com.example.codeora.splash
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:24:9-33:20
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:exported
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:29:13-36
 	android:theme
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:30:13-49
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:25:13-35
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:28:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:34:27-74
 activity#com.example.codeora.MainActivity
-ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:34:9-36:39
+ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:37:9-39:39
 	android:exported
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:35:13-41
+		ADDED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml:38:13-41
 uses-sdk
 INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\CodeOra\CodeOra-Android\app\src\main\AndroidManifest.xml
@@ -189,6 +198,8 @@ MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Zafran\.gradle\cache
 MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Zafran\.gradle\caches\transforms-3\2fe1eb29203ef25a7b84cf676e4df6ce\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\Zafran\.gradle\caches\transforms-3\b3afb54941440fa9891dc9470bf88330\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\Zafran\.gradle\caches\transforms-3\b3afb54941440fa9891dc9470bf88330\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Zafran\.gradle\caches\transforms-3\dbf5a40fb97120c24129140d821bfcb0\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Zafran\.gradle\caches\transforms-3\dbf5a40fb97120c24129140d821bfcb0\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\ad01eac45ee5dce266fab5fd7c4605f9\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\ad01eac45ee5dce266fab5fd7c4605f9\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\a8e6f4de7cd93f9782cf1345596b1bda\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -255,12 +266,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zafran\.gradle\cac
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\024e23f370f3654acb05812c2e6be77e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\0fb48e485143878e7568a89ecd36217b\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\0fb48e485143878e7568a89ecd36217b\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\2152ce4dd339642fa6927fa36ea22c56\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Zafran\.gradle\caches\transforms-3\2152ce4dd339642fa6927fa36ea22c56\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\e4919c112a7bd135653e0ef2311ed00f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Zafran\.gradle\caches\transforms-3\e4919c112a7bd135653e0ef2311ed00f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\f8a07234b9f856c1398beedb9c3192da\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\217b3c3ef7c89f401474fd9a4fc5c270\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\217b3c3ef7c89f401474fd9a4fc5c270\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Zafran\.gradle\caches\transforms-3\ac4c73d4d90e936e851c7314fb1d2776\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44

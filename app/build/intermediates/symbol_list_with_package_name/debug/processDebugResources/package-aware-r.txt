@@ -1149,6 +1149,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -3106,6 +3107,7 @@ drawable new1_background
 drawable new2_background
 drawable new3_background
 drawable new4_background
+drawable no
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3347,6 +3349,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id imageView5
 id immediateStop
 id included
@@ -3359,6 +3363,9 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id layer
+id layer2
+id layer3
 id layout
 id left
 id leftToRight
@@ -3488,8 +3495,6 @@ id position
 id postLayout
 id pressed
 id progressBar
-id progressBar2
-id progressBar3
 id progress_circular
 id progress_horizontal
 id radio
@@ -3567,6 +3572,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeRefreshLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3590,6 +3596,7 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -5287,6 +5294,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

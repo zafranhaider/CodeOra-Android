@@ -1,22 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_internet.xml",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_internet.xml"
+        "merged": "com.example.codeora.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.example.codeora.app-main-46:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_network_util.xml",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_network_util.xml"
+        "merged": "com.example.codeora.app-mergeDebugResources-43:/layout/activity_internet.xml",
+        "source": "com.example.codeora.app-main-46:/layout/activity_internet.xml"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_splash.xml"
+        "merged": "com.example.codeora.app-mergeDebugResources-43:/layout/activity_splash.xml",
+        "source": "com.example.codeora.app-main-46:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-45:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "com.example.codeora.app-mergeDebugResources-42:/layout/activity_internet.xml",
-        "source": "com.example.codeora.app-main-45:/layout/activity_internet.xml"
+        "merged": "com.example.codeora.app-mergeDebugResources-43:/layout/activity_network_util.xml",
+        "source": "com.example.codeora.app-main-46:/layout/activity_network_util.xml"
     }
 ]
