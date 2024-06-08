@@ -26,7 +26,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
         webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+
+        // Set the custom user agent string
+        String defaultUserAgent = webSettings.getUserAgentString();
+        webSettings.setUserAgentString(defaultUserAgent + " MyApp");
 
         webView.addJavascriptInterface(new WebAppInterface(), "Android");
         webView.loadUrl("https://zafran.pythonanywhere.com/index/");
@@ -109,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                         "           setTimeout(function() {" +
                         "               var newSection = document.createElement('div');" +
                         "               newSection.className = 'section';" +
-                        "               newSection.innerHTML = 'New Section Content';" +
+                        "               newSection.innerHTML = '';" +
                         "               content.appendChild(newSection);" +
                         "               loader.style.display = 'none';" +
                         "           }, 1000);" +
