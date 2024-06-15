@@ -64,16 +64,16 @@
         "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-xxhdpi\\new4_round.webp"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-xhdpi_new1.webp.flat",
+        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-xhdpi\\new1.webp"
     },
     {
         "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-hdpi_new2_foreground.webp.flat",
         "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-hdpi\\new2_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-xhdpi_new1.webp.flat",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-xhdpi\\new1.webp"
+        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\navigation\\nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-xhdpi_new2_round.webp.flat",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-mdpi\\new4.webp"
     },
     {
-        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-hdpi_new2.webp.flat",
-        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-hdpi\\new2.webp"
-    },
-    {
         "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-xxhdpi_new1_foreground.webp.flat",
         "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-xxhdpi\\new1_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\mipmap-hdpi_new2.webp.flat",
+        "source": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-main-46:\\mipmap-hdpi\\new2.webp"
     },
     {
         "merged": "C:\\Users\\Zafran\\.gradle\\daemon\\8.4\\com.example.codeora.app-debug-44:\\layout_activity_main.xml.flat",

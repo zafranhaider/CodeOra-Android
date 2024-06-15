@@ -50,7 +50,14 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        swipeRefreshLayout.setOnRefreshListener(() -> webView.reload());
+        swipeRefreshLayout.setOnRefreshListener(() -> {
+            // Temporarily set the cache mode to bypass the cache
+            webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+            webView.reload();
+            // Restore the original cache mode after reloading
+            swipeRefreshLayout.setRefreshing(false);
+            webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        });
 
         webView.setWebViewClient(new CustomWebViewClient());
         webView.setWebChromeClient(new CustomWebChromeClient());
@@ -60,12 +67,13 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setDomStorageEnabled(true);
         webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 
-        // Set the custom user agent string
+// Set the custom user agent string
         String defaultUserAgent = webSettings.getUserAgentString();
         webSettings.setUserAgentString(defaultUserAgent + " MyApp");
 
         webView.addJavascriptInterface(new WebAppInterface(), "Android");
         webView.loadUrl("https://zafran.pythonanywhere.com/index/");
+
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, FILE_CHOOSER_REQUEST_CODE);
@@ -182,7 +190,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
     private class CustomWebChromeClient extends WebChromeClient {
         @Override
         public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> filePathCallback, FileChooserParams fileChooserParams) {
